@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{083CDA6C-F1A2-4FC2-8569-5D992A271491}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>RustExtended</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="Facepunch.Actor">
+      <HintPath>..\核心代码\DLL与支持库\Facepunch.Actor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.ID">
+      <HintPath>..\核心代码\DLL与支持库\Facepunch.ID.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Movement">
+      <HintPath>..\核心代码\DLL与支持库\Facepunch.Movement.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Utility">
+      <HintPath>..\核心代码\DLL与支持库\Facepunch.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="NLua">
+      <HintPath>..\核心代码\NLua.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\核心代码\DLL与支持库\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="uLink">
+      <HintPath>..\核心代码\DLL与支持库\uLink.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\核心代码\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="LitJSON">
+      <HintPath>..\核心代码\DLL与支持库\LitJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="Jint">
+      <HintPath>..\核心代码\Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="Oxide">
+      <HintPath>..\核心代码\Oxide.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>..\核心代码\DLL与支持库\Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.MeshBatch">
+      <HintPath>..\核心代码\DLL与支持库\Facepunch.MeshBatch.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.ProtocolBuffers.Serialization">
+      <HintPath>..\核心代码\DLL与支持库\Google.ProtocolBuffers.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.HitBox">
+      <HintPath>..\核心代码\DLL与支持库\Facepunch.HitBox.dll</HintPath>
+    </Reference>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Class17.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="extended.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="InvokeResult.cs" />
+    <Compile Include="RustExtended\Encryption.cs" />
+    <Compile Include="RustExtended\Hardware.cs" />
+    <Compile Include="RustExtended\Hooks.cs" />
+    <Compile Include="RustExtended\Loader.cs" />
+    <Compile Include="RustExtended\Method.cs" />
+    <Compile Include="RustExtended\UserBanned.cs" />
+    <Compile Include="RustExtended\Banned.cs" />
+    <Compile Include="RustExtended\Blocklist.cs" />
+    <Compile Include="RustExtended\Bootstrap.cs" />
+    <Compile Include="RustExtended\Broadcast.cs" />
+    <Compile Include="RustExtended\ClanMemberFlags.cs" />
+    <Compile Include="RustExtended\ClanFlags.cs" />
+    <Compile Include="RustExtended\ClanLevel.cs" />
+    <Compile Include="RustExtended\ClanData.cs" />
+    <Compile Include="RustExtended\Clans.cs" />
+    <Compile Include="RustExtended\Commands.cs" />
+    <Compile Include="RustExtended\Config.cs" />
+    <Compile Include="RustExtended\HistoryRecord.cs" />
+    <Compile Include="RustExtended\UserAnswer.cs" />
+    <Compile Include="RustExtended\UserQuery.cs" />
+    <Compile Include="RustExtended\LoadoutItem.cs" />
+    <Compile Include="RustExtended\LoadoutEntry.cs" />
+    <Compile Include="RustExtended\Core.cs" />
+    <Compile Include="RustExtended\UserEconomy.cs" />
+    <Compile Include="RustExtended\ShopGroup.cs" />
+    <Compile Include="RustExtended\ShopItem.cs" />
+    <Compile Include="RustExtended\Economy.cs" />
+    <Compile Include="RustExtended\Shop.cs" />
+    <Compile Include="RustExtended\MOTDEvent.cs" />
+    <Compile Include="RustExtended\Events.cs" />
+    <Compile Include="RustExtended\EventTimer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RustExtended\StringHelper.cs" />
+    <Compile Include="RustExtended\RandomHelper.cs" />
+    <Compile Include="RustExtended\CollectionExtensions.cs" />
+    <Compile Include="RustExtended\ListHelper.cs" />
+    <Compile Include="RustExtended\NumericHelper.cs" />
+    <Compile Include="RustExtended\EnumHelper.cs" />
+    <Compile Include="RustExtended\Vector2Helper.cs" />
+    <Compile Include="RustExtended\Vector3Helper.cs" />
+    <Compile Include="RustExtended\NetUserHelper.cs" />
+    <Compile Include="RustExtended\IniFile.cs" />
+    <Compile Include="RustExtended\NetCrypt.cs" />
+    <Compile Include="RustExtended\Helper.cs" />
+    <Compile Include="RustExtended\RustHook.cs" />
+    <Compile Include="Magma\Bootstrap.cs" />
+    <Compile Include="Magma\ChatString.cs" />
+    <Compile Include="Magma\Data.cs" />
+    <Compile Include="Magma\DataStore.cs" />
+    <Compile Include="Magma\Entity.cs" />
+    <Compile Include="Magma\Events\BPUseEvent.cs" />
+    <Compile Include="Magma\Events\HurtEvent.cs" />
+    <Compile Include="Magma\Events\DeathEvent.cs" />
+    <Compile Include="Magma\Events\DecayEvent.cs" />
+    <Compile Include="Magma\Events\DoorEvent.cs" />
+    <Compile Include="Magma\Events\GatherEvent.cs" />
+    <Compile Include="Magma\Events\SpawnEvent.cs" />
+    <Compile Include="Magma\Events\TimedEvent.cs" />
+    <Compile Include="Magma\Hooks.cs" />
+    <Compile Include="IniParser.cs" />
+    <Compile Include="Magma\ItemsBlocks.cs" />
+    <Compile Include="Magma\NPC.cs" />
+    <Compile Include="ParamsList.cs" />
+    <Compile Include="Magma\Player.cs" />
+    <Compile Include="Magma\PlayerInv.cs" />
+    <Compile Include="Magma\PlayerItem.cs" />
+    <Compile Include="Magma\Plugin.cs" />
+    <Compile Include="Magma\PluginEngine.cs" />
+    <Compile Include="Magma\Server.cs" />
+    <Compile Include="Magma\Util.cs" />
+    <Compile Include="Magma\Web.cs" />
+    <Compile Include="Magma\World.cs" />
+    <Compile Include="Magma\Zone3D.cs" />
+    <Compile Include="MySQL.cs" />
+    <Compile Include="RustExtended\Override.cs" />
+    <Compile Include="serv.cs" />
+    <Compile Include="RustExtended\FallCheckState.cs" />
+    <Compile Include="RustExtended\RustProtectFlag.cs" />
+    <Compile Include="RustExtended\SnapshotData.cs" />
+    <Compile Include="RustExtended\Truth.cs" />
+    <Compile Include="RustExtended\NamePrefix.cs" />
+    <Compile Include="RustExtended\UserFlags.cs" />
+    <Compile Include="RustExtended\Countdown.cs" />
+    <Compile Include="RustExtended\UserData.cs" />
+    <Compile Include="RustExtended\Users.cs" />
+    <Compile Include="RustExtended\World.cs" />
+    <Compile Include="RustExtended\ZoneFlags.cs" />
+    <Compile Include="RustExtended\WorldZone.cs" />
+    <Compile Include="RustExtended\Zones.cs" />
+    <Compile Include="ns0\Attribute0.cs" />
+    <Compile Include="ns0\Attribute1.cs" />
+    <Compile Include="ns1\Attribute2.cs" />
+    <Compile Include="ns1\Class58.cs" />
+  </ItemGroup>
+</Project>

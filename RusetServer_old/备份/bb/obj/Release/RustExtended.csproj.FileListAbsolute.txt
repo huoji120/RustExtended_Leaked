@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Release\RustExtended.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Release\RustExtended.pdb
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Release\Assembly-CSharp.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Release\Facepunch.ID.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Release\Facepunch.Utility.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Release\Google.ProtocolBuffers.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Release\Google.ProtocolBuffers.Serialization.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Release\uLink.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Release\UnityEngine.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\obj\Release\RustExtended.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\obj\Release\RustExtended.pdb
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\obj\Release\RustExtended.csprojResolveAssemblyReference.cache

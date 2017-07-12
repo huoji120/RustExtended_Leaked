@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{5E0AFEE9-77FE-490D-9236-3378B5DE121D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>RustProtect</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.ID">
+      <HintPath>..\Facepunch.ID.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="uLink">
+      <HintPath>..\uLink.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NetLink\EnumHelper.cs" />
+    <Compile Include="NetLink\Network.cs" />
+    <Compile Include="ns0\Class0.cs" />
+    <Compile Include="ns0\Class10.cs" />
+    <Compile Include="ns0\Class2.cs" />
+    <Compile Include="ns0\Class3.cs" />
+    <Compile Include="ns0\Class4.cs" />
+    <Compile Include="ns0\Class5.cs" />
+    <Compile Include="ns0\Class6.cs" />
+    <Compile Include="ns0\Class7.cs" />
+    <Compile Include="ns0\Class8.cs" />
+    <Compile Include="ns0\Class9.cs" />
+    <Compile Include="ns0\Enum0.cs" />
+    <Compile Include="ns0\Enum1.cs" />
+    <Compile Include="ns0\Enum4.cs" />
+    <Compile Include="ns0\Stream0.cs" />
+    <Compile Include="ns1\Class11.cs" />
+    <Compile Include="ns1\Class23.cs" />
+    <Compile Include="ns2\Attribute0.cs" />
+    <Compile Include="ns2\Attribute1.cs" />
+    <Compile Include="ns3\Attribute2.cs" />
+    <Compile Include="ns3\Class12.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RustProtect\Method.cs" />
+    <Compile Include="RustProtect\Network.cs" />
+    <Compile Include="RustProtect\ProtectLoader.cs" />
+    <Compile Include="System.IO.Compression.Zlib\Adler.cs" />
+    <Compile Include="System.IO.Compression.Zlib\CompressionLevel.cs" />
+    <Compile Include="System.IO.Compression.Zlib\CompressionMode.cs" />
+    <Compile Include="System.IO.Compression.Zlib\CompressionStrategy.cs" />
+    <Compile Include="System.IO.Compression.Zlib\DeflateStream.cs" />
+    <Compile Include="System.IO.Compression.Zlib\FlushType.cs" />
+    <Compile Include="System.IO.Compression.Zlib\GZipStream.cs" />
+    <Compile Include="System.IO.Compression.Zlib\ZlibCodec.cs" />
+    <Compile Include="System.IO.Compression.Zlib\ZlibConstants.cs" />
+    <Compile Include="System.IO.Compression.Zlib\ZlibException.cs" />
+    <Compile Include="System.IO.Compression.Zlib\ZlibStream.cs" />
+    <Compile Include="System.IO.Compression\CRC32.cs" />
+    <Compile Include="System.IO.Compression\CrcCalculatorStream.cs" />
+    <Compile Include="System.IO\BitStream.cs" />
+    <Compile Include="System.IO\BitStreamCodec.cs" />
+    <Compile Include="System.IO\BitStreamTypeCode.cs" />
+    <Compile Include="System\BitConverterHelper.cs" />
+    <Compile Include="System\ByteCollectionHelper.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

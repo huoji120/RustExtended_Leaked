@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\黑色行动\通用外挂\新版rustprotect版本\我就不信了\bin\Debug\RustProtect.Core.dll
+C:\Users\Administrator\Desktop\黑色行动\通用外挂\新版rustprotect版本\我就不信了\bin\Debug\RustProtect.Core.pdb
+C:\Users\Administrator\Desktop\黑色行动\通用外挂\新版rustprotect版本\我就不信了\bin\Debug\Assembly-CSharp.dll
+C:\Users\Administrator\Desktop\黑色行动\通用外挂\新版rustprotect版本\我就不信了\bin\Debug\Facepunch.ID.dll
+C:\Users\Administrator\Desktop\黑色行动\通用外挂\新版rustprotect版本\我就不信了\bin\Debug\RustProtect.dll
+C:\Users\Administrator\Desktop\黑色行动\通用外挂\新版rustprotect版本\我就不信了\bin\Debug\uLink.dll
+C:\Users\Administrator\Desktop\黑色行动\通用外挂\新版rustprotect版本\我就不信了\bin\Debug\UnityEngine.dll
+C:\Users\Administrator\Desktop\黑色行动\通用外挂\新版rustprotect版本\我就不信了\obj\x86\Debug\RustProtect.Core.dll
+C:\Users\Administrator\Desktop\黑色行动\通用外挂\新版rustprotect版本\我就不信了\obj\x86\Debug\RustProtect.Core.pdb

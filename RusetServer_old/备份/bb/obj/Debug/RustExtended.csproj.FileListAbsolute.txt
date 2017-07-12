@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Debug\RustExtended.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Debug\RustExtended.pdb
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Debug\Assembly-CSharp.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Debug\Facepunch.ID.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Debug\Facepunch.Utility.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Debug\Google.ProtocolBuffers.Serialization.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Debug\uLink.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\bin\Debug\UnityEngine.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\obj\Debug\RustExtended.dll
+C:\Users\Administrator\Desktop\黑色行动\内核\bb\obj\Debug\RustExtended.pdb

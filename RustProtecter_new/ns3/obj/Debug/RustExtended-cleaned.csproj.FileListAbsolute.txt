@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\FUCK\obj\Debug\RustExtended-cleaned.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\FUCK\bin\Debug\RustExtended.dll
+C:\Users\Administrator\Desktop\FUCK\bin\Debug\RustExtended.pdb
+C:\Users\Administrator\Desktop\FUCK\bin\Debug\Assembly-CSharp.dll
+C:\Users\Administrator\Desktop\FUCK\bin\Debug\Facepunch.ID.dll
+C:\Users\Administrator\Desktop\FUCK\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Administrator\Desktop\FUCK\bin\Debug\uLink.dll
+C:\Users\Administrator\Desktop\FUCK\bin\Debug\UnityEngine.dll
+C:\Users\Administrator\Desktop\FUCK\obj\Debug\RustExtended.dll
+C:\Users\Administrator\Desktop\FUCK\obj\Debug\RustExtended.pdb

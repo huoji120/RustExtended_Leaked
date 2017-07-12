@@ -1,0 +1,48 @@
+using System;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+namespace ns2
+{
+	[CompilerGenerated]
+	internal class Class17
+	{
+		[StructLayout(LayoutKind.Explicit, Pack = 1, Size = 16)]
+        public struct Struct4
+		{
+		}
+		[StructLayout(LayoutKind.Explicit, Pack = 1, Size = 1024)]
+        public struct Struct5
+		{
+		}
+		[StructLayout(LayoutKind.Explicit, Pack = 1, Size = 116)]
+        public struct Struct6
+		{
+		}
+		[StructLayout(LayoutKind.Explicit, Pack = 1, Size = 120)]
+        public struct Struct7
+		{
+		}
+		[StructLayout(LayoutKind.Explicit, Pack = 1, Size = 12)]
+        public struct Struct8
+		{
+		}
+		[StructLayout(LayoutKind.Explicit, Pack = 1, Size = 76)]
+        public struct Struct9
+		{
+		}
+		internal static long long_0;
+		internal static long long_1;
+		internal static Class17.Struct4 struct4_0;
+		internal static Class17.Struct4 struct4_1;
+		internal static Class17.Struct5 struct5_0;
+		internal static Class17.Struct6 struct6_0;
+		internal static Class17.Struct6 struct6_1;
+		internal static Class17.Struct7 struct7_0;
+		internal static Class17.Struct7 struct7_1;
+		internal static Class17.Struct8 struct8_0;
+		internal static Class17.Struct8 struct8_1;
+		internal static Class17.Struct9 struct9_0;
+		internal static Class17.Struct9 struct9_1;
+		internal static Class17.Struct4 struct4_2;
+	}
+}
